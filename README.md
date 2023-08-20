@@ -1,1 +1,1 @@
-printf project by faith and brian
+printf project by Faith and Brian
