@@ -2,7 +2,6 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print f project by faith and brian
  * print_pointer - Prints the value of a pointer variable
  * @types: List a of arguments
  * @buffer: Buffer array to handle print

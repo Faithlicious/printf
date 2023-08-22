@@ -3,7 +3,6 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print f project by faith and brian
  * print_char - Prints a char
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
@@ -20,7 +19,7 @@ int print_char(va_list types, char buffer[],
 
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
-/** to print a string **/
+/************************* PRINT A STRING *************************/
 /**
  * print_string - Prints a string
  * @types: List a of arguments
@@ -74,10 +73,10 @@ int print_string(va_list types, char buffer[],
 	}
 
 	return (write(1, str, length));
-
-/** prints the percentage sign **/
+}
+/************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints a percentage sign
+ * print_percent - Prints a percent sign
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -98,14 +97,13 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/** prints int **/
-
+/************************* PRINT INT *************************/
 /**
  * print_int - Print int
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: gets the width.
+ * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -143,8 +141,7 @@ int print_int(va_list types, char buffer[],
 	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 
-/** prints the binary ***/
-
+/************************* PRINT BINARY *************************/
 /**
  * print_binary - Prints an unsigned number
  * @types: Lista of arguments
