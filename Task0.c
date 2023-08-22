@@ -5,6 +5,10 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - Printf function
  * @format: format.
+<<<<<<< HEAD
+=======
+ * print f project
+>>>>>>> 629cf38f8bba420a8fb24a48d9e6ad628fdb8930
  * Return: Printed chars.
  */
 int _printf(const char *format, ...)
