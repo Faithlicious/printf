@@ -2,7 +2,6 @@
 
 /**
  * get_precision - Calculates the precision for printing
- * printf project by faith  and brian
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  * @list: list of arguments.
