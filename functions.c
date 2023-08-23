@@ -2,6 +2,7 @@
 
 /**
  * print_char - Prints a char
+ * printf project by faith and brian 
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
