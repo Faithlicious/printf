@@ -2,6 +2,7 @@
 
 /**
  * Print_pointer - Prints the value of a pointer variable
+ * printf project by faith and brian
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
