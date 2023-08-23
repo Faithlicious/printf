@@ -2,7 +2,6 @@
 
 /**
  * print_unsigned - A function that prints an unsigned number
- * printf project by faith by brian
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
